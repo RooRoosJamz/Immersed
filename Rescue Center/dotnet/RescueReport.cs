@@ -1,7 +1,7 @@
-﻿using Sabio.Models.Domain.Trainees;
+using Models.Domain.Trainees;
 using System;
 
-namespace Sabio.Models.Domain.TraineeAccounts
+namespace Models.Domain.TraineeAccounts
 {
     public class Rescue
     {

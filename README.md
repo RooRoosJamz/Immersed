@@ -1,1 +1,2 @@
 # Immersed
+Immersed is a web application that provides an immersive style of cyber security training for kids to engage with real world cyber security threats, while educators/administrators can tailor the training content to their trainees. Immersed is an MVP and due to its properietary nature I can only provide snippets of my code. This includes .NET, SQL, and React code the components I worked on for Immersed.

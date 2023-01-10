@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Sabio.Models.Requests
+namespace Models.Requests
 {
     public class NewsletterSubcriptionUpdateRequest : NewsletterSubscriptionAddRequest
     {

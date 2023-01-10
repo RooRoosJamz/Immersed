@@ -1,0 +1,15 @@
+using Models.Domain;
+using Models.Domain.TraineeAccounts;
+using Models.Requests;
+
+namespace Services.Interfaces
+{
+    public interface IRescueService
+    {
+        int Create(RescueAddRequest model, int userId);
+        Rescue Get(int id);
+        Paged<Rescue> GetByTraineeId(int pageIndex, int pageSize, int traineeId);
+        Paged<Rescue> GetByZoneId(int pageIndex, int pageSize, int zoneId);
+        Paged<Rescue> GetByTraineeAccountId(int pageIndex, int pageSize, int traineeAccountId);
+    }
+}

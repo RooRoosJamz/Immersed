@@ -1,15 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Sabio.Models;
-using Sabio.Models.Domain;
-using Sabio.Models.Requests;
-using Sabio.Services;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
+using Models.Domain;
+using Models.Requests;
+using Services;
+using Web.Controllers;
+using Web.Models.Responses;
 using System;
 using System.Collections.Generic;
 
-namespace Sabio.Web.Api.Controllers
+namespace Web.Api.Controllers
 {
     [Route("api/newslettersubscriptions")]
     [ApiController]

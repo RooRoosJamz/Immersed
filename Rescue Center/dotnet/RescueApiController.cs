@@ -1,17 +1,17 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Sabio.Models;
-using Sabio.Models.Domain;
-using Sabio.Models.Domain.TraineeAccounts;
-using Sabio.Models.Requests;
-using Sabio.Services;
-using Sabio.Services.Interfaces;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
+using Models;
+using Models.Domain;
+using Models.Domain.TraineeAccounts;
+using Models.Requests;
+using Services;
+using Services.Interfaces;
+using Web.Controllers;
+using Web.Models.Responses;
 using System;
 
-namespace Sabio.Web.Api.Controllers
+namespace Web.Api.Controllers
 {
     [Route("api/rescue")]
     [ApiController]

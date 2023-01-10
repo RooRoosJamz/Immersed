@@ -3,8 +3,6 @@ import * as helper from "./serviceHelpers";
 
 const endpoint = `${helper.API_HOST_PREFIX}/api/zones/`;
 
-
-
 let addZone = (payload) => {
   const config = {
     method: "POST",

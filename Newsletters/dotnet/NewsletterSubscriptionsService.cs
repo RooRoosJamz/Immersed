@@ -1,13 +1,11 @@
-﻿using Sabio.Data;
-using Sabio.Data.Providers;
-using Sabio.Models;
-using Sabio.Models.Domain;
-using Sabio.Models.Requests;
+using Data.Providers;
+using Models.Domain;
+using Models.Requests;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace Sabio.Services
+namespace Services
 {
     public class NewsletterSubscriptionsService : INewsletterSubscriptionsService
     {

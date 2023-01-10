@@ -1,0 +1,14 @@
+using Models.Domain;
+using Models.Requests;
+using System.Collections.Generic;
+
+namespace Services
+{
+    public interface INewsletterSubscriptionsService
+    {
+        string Create(NewsletterSubscriptionAddRequest model);
+        void UpdateSubscription(NewsletterSubcriptionUpdateRequest model);
+        Paged<NewsletterSubscription> GetAllPaged(int pageIndex, int pageSize);
+        List<NewsletterSubscription> GetAllByIsSubcribed(bool isSubscribed);
+    }
+}

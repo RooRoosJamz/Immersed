@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Sabio.Models.Requests.TraineeAccounts
+namespace Models.Requests.TraineeAccounts
 {
     public class TraineeAccountsPasswordUpdate
     {
